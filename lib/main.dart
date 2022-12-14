@@ -1,14 +1,12 @@
-import 'package:carousel_slider/carousel_slider.dart';
+// Flutter imports:
 import 'package:flutter/material.dart';
+
+// Package imports:
+import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 void main() {
-  var list = [
-    // 'assets/images/AngryCat.webp',
-    // 'assets/images/cat2.jpg',
-    // 'assets/images/cat3.jpg',
-    'assets/images/snake-venom-vase.svg'
-  ];
+  var list = ['assets/images/snake-venom-vase.svg'];
   runApp(
     MaterialApp(
       home: Scaffold(
